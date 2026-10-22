@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canceled Bookings - Smart Parking System</title>
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <img src="path_to_profile_image" alt="Profile Picture">
+            <h3 id="user-name">User Name</h3>
+        </div>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="profile.html">Profile</a>
+        <a href="booking.html">Book Parking</a>
+        <a href="cancel.html">Cancel Booking</a>
+        <a href="booking-details.html">Booking Details</a>
+        <a href="#" class="active">Canceled Bookings</a>
+        <div id="admin-links" style="display: none;">
+            <a href="#admin-dashboard">Admin Dashboard</a>
+            <a href="#reports">Reports</a>
+            <a href="#slot-management">Slot Management</a>
+            <a href="#manage-users">Manage Users</a>
+        </div>
+        <a href="login.html">Logout</a>
+    </div>
+
+    <div class="main-content">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Smart Parking System</a>
+            </div>
+        </nav>
+
+        <section id="canceled-bookings" class="dashboard-section">
+            <h2>Canceled Bookings</h2>
+            <div id="canceled-bookings-list"></div>
+        </section>
+    </div>
+
+    <script src="./canceled-bookings.js"></script>
+</body>
+</html>

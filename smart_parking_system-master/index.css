@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #2e8b57;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-btn {
+    color: #2e8b57;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #2e8b57;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #2e8b57;
+    color:#fff;
+    text-decoration: none;
+}
+
+/* Hero Section with Responsive Video */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.feature-box {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* How it Works Section */
+.how-it-works {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.step {
+    width: 250px;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .feature-container, .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content {
+        padding: 15px;
+    }
+
+    .navbar nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+

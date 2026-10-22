@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details - Smart Parking System</title>
+    <link rel="stylesheet" href="./dashboard.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="profile">
+            <img src="path_to_profile_image" alt="Profile Picture">
+            <h3 id="user-name">User Name</h3>
+        </div>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="profile.html">Profile</a>
+        <a href="booking.html">Book Parking</a>
+        <a href="cancel.html">Cancel Booking</a>
+        <a href="#booking-details" id="booking-details-link">Booking Details</a>
+        <a href="dashboard.html#canceled-bookings">Canceled Bookings</a>
+
+        <!-- Admin-Only Links -->
+        <div id="admin-links" style="display: none;">
+            <a href="#admin-dashboard">Admin Dashboard</a>
+            <a href="#reports">Reports</a>
+            <a href="#slot-management">Slot Management</a>
+            <a href="#manage-users">Manage Users</a>
+        </div>
+        <a href="login.html">Logout</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Smart Parking System</a>
+            </div>
+        </nav>
+
+        <!-- Booking Details Section -->
+        <section id="booking-details" class="dashboard-section">
+            <h2>Booking Details</h2>
+            <!-- Booking Details content goes here -->
+        </section>
+    </div>
+
+    <script src="./booking-details.js"></script>
+</body>
+</html>
