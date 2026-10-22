@@ -2,7 +2,7 @@
 
 A responsive and interactive parking slot booking system built using **HTML**, **CSS**, and **JavaScript**. Users can register, log in, and book parking slots based on vehicle type, location, and availability. Designed to simulate real-world parking logic with a clean and user-friendly interface.
 
-🔗 **Live Demo**: [Smart Parking System](https://maheshreddymaram2.github.io/smart-parking-system/)
+
 
 ---
 
@@ -133,11 +133,3 @@ All screenshots are placed in the `screenshots/` folder.
 
 ---
 
-## 👨‍💻 Author
-*Venkata Mahesh Reddy Maram*  
-💻 Full-Stack Developer | MERN Stack  
-🎓 Final Year Student at SRM Institute of Science and Technology  
-🌐 [GitHub Profile](https://github.com/maheshreddymaram2)
-🔗 [LinkedIn](https://www.linkedin.com/in/venkata-mahesh-reddy-maram-28039626b/)
-
->⭐ *If you liked this project or found it interesting, feel free to star the repository.*
